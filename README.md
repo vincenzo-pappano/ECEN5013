@@ -26,3 +26,17 @@ Upon successful compilation, you can run the code by issuing the following comma
 ```
 ./stats.out
 ```
+
+### A Couple of Useful git Tips
+
+If you used 'git init' in the wrong directory, you can undo 'git init' by issuing the following command
+
+```
+rm -rf .git
+```
+
+If you mistakenly added a file to your repository and want to stop tracking it, issue the following command
+
+```
+git rm --cached fileName
+```

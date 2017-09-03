@@ -19,7 +19,36 @@
  *
  */
 
+void print_array(int num[], int len) {
 
+}
+
+int print_mean(int num[], int len) {
+	int total = 0;
+
+	return (total/len);
+}
+
+int find_maximum(int num[], int len) {
+    int smallest=num[0];
+    return smallest;
+}
+
+int find_minimum(int num[], int len) {
+    int largest=num[0];
+    return largest;
+}
+
+void sort_array(int num[], int len) {
+}
+
+int find_median(int num[], int len) {
+	int median = 0;
+	return median;
+}
+
+void print_statistics(int num[], int len) {
+}
 
 #include <stdio.h>
 #include "stats.h"

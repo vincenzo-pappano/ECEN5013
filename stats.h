@@ -36,5 +36,78 @@
  * @return <Add Return Informaiton here>
  */
 
+/**
+ * @brief Given an array of integer data and its length, prints the array to the screen
+ *
+ * @param num  The array to print
+ * @param len  The length of the array
+
+ * @return void
+ */
+void print_array(int num[], int len);
+
+/**
+ * @brief Given an array of integer data and its length, returns its mean
+ *
+ * @param num  The array to print
+ * @param len  The length of the array
+
+ * @return mean The mean of the array
+ */
+int print_mean(int num[], int len);
+
+/**
+ * @brief Given an array of integer data and its length, returns its maximum
+ *
+ * @param num  The array to print
+ * @param len  The length of the array
+
+ * @return maximum The largest value in the array
+ */
+int find_maximum(int num[], int len);
+
+
+/**
+ * @brief Given an array of integer data and its length, returns its minimum
+ *
+ * @param num  The array to print
+ * @param len  The length of the array
+
+ * @return minimum The largest value in the array
+ */
+int find_minimum(int num[], int len);
+
+/**
+ * @brief Given an array of integer data and its length, sorts the array from the largest to the smallest
+ *
+ * @param num  The array to print
+ * @param len  The length of the array
+
+ * @return void
+ */
+void sort_array(int num[], int len);
+
+/**
+ * @brief Given an array of integer data and its length, returns the median value
+ *
+ * @param num  The array to print
+ * @param len  The length of the array
+
+ * @return median The median value of the array
+ */
+int find_median(int num[], int len);
+
+/**
+ * @brief Given an array of integer data and its length, prints the array statistics (minimum, m
+ *        maximum, mean, and median
+ *
+ * @param num  The array to print
+ * @param len  The length of the array
+
+ * @return void
+ */
+void print_statistics(int num[], int len);
+
+
 
 #endif /* __STATS_H__ */
